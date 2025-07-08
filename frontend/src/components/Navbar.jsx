@@ -41,7 +41,7 @@ const Navbar = () => {
           <hr className="w-5 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
         <div className="inline-block border border-gray-300 rounded-2xl px-5 py-2 bg-white shadow-sm hover:bg-gray-100 transition-all ">
-          <a href="http://localhost:5174/add">Admin Panel</a>
+          <a href="https://the-originals-admin.vercel.app">Admin Panel</a>
         </div>
       </ul>
       <div className="flex items-center gap-6">
