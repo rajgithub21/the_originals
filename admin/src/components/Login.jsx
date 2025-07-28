@@ -36,6 +36,9 @@ const Login = ({setToken}) => {
       setEmail(demoCredentials.email);
       setPassword(demoCredentials.password);
     };
+    const redirectToOriginals = () => {
+      window.location.href = "https://the-originals-main.vercel.app/login";
+    };
 
   return (
     <div className="flex items-center justify-center min-h-screen w-full">
@@ -80,6 +83,13 @@ const Login = ({setToken}) => {
           className="ml-16 text-xl mt-10 text-blue-500 underline "
         >
           Use Demo Credentials
+        </button>
+          <button
+          type="button"
+          onClick={redirectToOriginals}
+          className="block mx-auto text-lg mt-4 text-purple-600 underline"
+        >
+          Go to Originals Login
         </button>
       </div>
     </div>
